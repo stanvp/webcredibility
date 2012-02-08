@@ -1,0 +1,2 @@
+db:
+    uri: sqlite:///db.sqlite3

@@ -1,0 +1,30 @@
+Install python:
+
+sudo apt-get install python python-dev python-setuptools build-essentials
+
+Versions:
+
+python and python-dev - 2.7.2-7ubuntu2
+python-setuptools - 0.6.16-1
+
+
+Install nltk 2.0
+
+sudo easy_install pip
+sudo pip install numpy --upgrade
+sudo pip install nltk --upgrade
+
+Install Elixir 0.7.1
+sudo easy_install Elixir
+
+Install PyEnchant
+
+sudo pip install PyEnchant --upgrade
+
+sudo apt-get install libblas-dev liblapack-dev libatlas3gf-base 
+sudo pip install scipy --upgrade
+sudo apt-get install libamd2.2.0 libblas3gf libc6 libgcc1 libgfortran3 liblapack3gf libumfpack5.4.0 libstdc++6 build-essential gfortran libatlas-base-dev python-all-dev
+sudo pip install argparse --upgrade
+
+
+python train_classifier.py --algorithm NaiveBayes --instances files --min_score 3 --ngrams 1 --ngrams 2 movie_reviews
